@@ -1,0 +1,17 @@
+@keyframes glowPulse {
+  0% {
+    box-shadow: 0 0 5px rgba(0, 255, 255, 0.4);
+  }
+  50% {
+    box-shadow: 0 0 15px rgba(0, 255, 255, 0.9);
+  }
+  100% {
+    box-shadow: 0 0 5px rgba(0, 255, 255, 0.4);
+  }
+}
+
+.glow-active-thumb {
+  animation: glowPulse 1.5s infinite ease-in-out;
+  transform: scale(1.05);
+  border-radius: 6px;
+}

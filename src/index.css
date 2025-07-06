@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+/* Add to index.css */
+html {
+  scroll-behavior: smooth;
+}
+
