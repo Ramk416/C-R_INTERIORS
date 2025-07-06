@@ -20,22 +20,22 @@ const Home = () => {
 
       {/* 🔹 Foreground Content */}
       <div className="relative z-10 px-4 py-10 min-h-[85vh] flex flex-col justify-center items-center text-center max-w-3xl mx-auto">
-        <h1 className="text-4xl md:text-5xl font-bold text-[#f43838] mb-5">
-          C & R <span className="text-[#f43838]">INTERIORS</span>
+        <h1 className="text-4xl md:text-5xl font-bold text-[#0a0a0a] mb-5 text-shadow-lg">
+          C & R <span className="text-[#e8db9b]">INTERIORS</span>
         </h1>
 
-        <p className="text-[#e7b174] font-semibold leading-relaxed text-base md:text-lg mb-4">
+        <p className="text-[#f1eeee] font-semibold leading-relaxed text-base md:text-lg mb-4">
           A space where creativity meets comfort. Whether it's a modern makeover,
           elegant renovation, or fresh design ideas—offering end-to-end turnkey
           projects from concept development and design to execution and final handover.
         </p>
 
-        <p className="text-[#e7b174] font-semibold text-sm md:text-base">
+        <p className="text-[#f1eeee] font-semibold text-sm md:text-base">
           📍 Residential & Commercial <br />
           📐 3D Visualization / Space Planning / Layout
         </p>
 
-        <div className="mt-8 font-semibold text-[#e7b55f] text-sm md:text-base space-y-1">
+        <div className="mt-8 font-semibold text-[#f1eeee] text-sm md:text-base space-y-1">
           <p>📞 9444139721 / 8056034718</p>
           <p>📧 rsdesigningstudio@gmail.com</p>
         </div>
