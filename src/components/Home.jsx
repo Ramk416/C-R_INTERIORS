@@ -20,8 +20,8 @@ const Home = () => {
 
       {/* 🔹 Foreground Content */}
       <div className="relative z-10 px-4 py-10 min-h-[85vh] flex flex-col justify-center items-center text-center max-w-3xl mx-auto">
-        <h1 className="text-4xl md:text-5xl font-bold text-[#0a0a0a] mb-5 text-shadow-lg">
-          C & R <span className="text-[#e8db9b]">INTERIORS</span>
+        <h1 className="text-4xl md:text-5xl font-bold text-[#ff3939] mb-5 text-shadow-lg">
+          C & R <span className="font-bold text-[#f3f2f1]">INTERIORS</span>
         </h1>
 
         <p className="text-[#f1eeee] font-semibold leading-relaxed text-base md:text-lg mb-4">

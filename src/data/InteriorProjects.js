@@ -129,6 +129,37 @@ const completedProjects = [
     completionDate: "2024-03-15",
     duration: "3 months"
   },
+  {
+    id: 5,
+    title: "Manish agarwal - Residence ",
+    images: [
+      "/images/project_no_5/1.jpg",
+      "/images/project_no_5/2.jpg",
+      "/images/project_no_5/3.jpg",
+      "/images/project_no_5/4.jpg",
+      "/images/project_no_5/5.jpg",
+      "/images/project_no_5/6.jpg",
+      "/images/project_no_5/7.jpg",
+      "/images/project_no_5/8.jpg",
+      "/images/project_no_5/9.jpg",
+      "/images/project_no_5/10.jpg",
+      "/images/project_no_5/11.jpg",
+      "/images/project_no_5/12.jpg",
+      "/images/project_no_5/15.jpg",
+      "/images/project_no_5/16.jpg",
+      "/images/project_no_5/17.jpg",
+      "/images/project_no_5/18.jpg",
+      "/images/project_no_5/19.jpg",
+      "/images/project_no_5/20.jpg",
+      "/images/project_no_5/21.jpg",
+      "/images/project_no_5/22.jpg",
+      "/images/project_no_5/23.jpg",
+    ],
+    video: "",
+    location: "Anna Nagar, Chennai, India",
+    completionDate: "2024-03-15",
+    duration: "3 months"
+  },
   // ... other projects
 ];
 export default completedProjects;
