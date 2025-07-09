@@ -13,17 +13,16 @@ export default {
     },
   },
   plugins: [
-    function ({ addUtilities }) {
-      addUtilities({
-        '.stroke-text': {
-          '-webkit-text-stroke': '2px white',
-          'color': 'transparent',
-          'position': 'relative',
-        },
-        '.shadow-text': {
-          'text-shadow': '2px 2px 5px rgba(0, 0, 0, 0.6)',
-        },
-      });
-    },
-  ],
+  function ({ addUtilities }) {
+    addUtilities({
+      '.stroke-text': {
+        '-webkit-text-stroke': '1px white',
+        'color': 'white',
+      },
+      '.shadow-text': {
+        'text-shadow': '2px 2px 4px rgba(0, 0, 0, 0.5)',
+      },
+    });
+  },
+],
 };
