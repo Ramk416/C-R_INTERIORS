@@ -25,8 +25,8 @@ const completedProjects = [
       "/Video/project_no_1/2.mp4",
     ],
     location: "Egmore, Chennai, India",
-    completionDate: "2024-03-15",
-    duration: "3 months"
+    completionDate: "2024-08-28",
+    duration: "5 months"
   },
   {
     id: 2,
@@ -57,8 +57,8 @@ const completedProjects = [
     ],
     video: "/Video/project_no_2/tour.mp4",
     location: "Besant Nagar, Chennai, India",
-    completionDate: "2024-03-15",
-    duration: "3 months"
+    completionDate: "2024-06-09",
+    duration: "6 months"
   },
   {
     id: 3,
@@ -83,8 +83,8 @@ const completedProjects = [
       "/Video/project_no_3/tour2.mp4",
     ],
     location: "Chennai, India",
-    completionDate: "2024-03-15",
-    duration: "3 months"
+    completionDate: "2023-07-09",
+    duration: "7 months"
   },
   {
     id: 4,
@@ -126,8 +126,8 @@ const completedProjects = [
     ],
     video: "",
     location: "Prince Courtyard, Chennai, India",
-    completionDate: "2024-03-15",
-    duration: "3 months"
+    completionDate: "2023-01-15",
+    duration: "8months"
   },
   {
     id: 5,
@@ -157,8 +157,8 @@ const completedProjects = [
     ],
     video: "",
     location: "Anna Nagar, Chennai, India",
-    completionDate: "2024-03-15",
-    duration: "3 months"
+    completionDate: "2019-04-04",
+    duration: "6 months"
   },
   // ... other projects
 ];

@@ -12,8 +12,8 @@ const ongoingProjects = [
     ],
     video: "",
     location: "Chadwas, Rajasthan, India",
-    completionDate: "2024-03-15",
-    duration: "3 months"
+    completionDate: "2025-03-20",
+    duration: "5 days"
   },
   
   // ... other projects
