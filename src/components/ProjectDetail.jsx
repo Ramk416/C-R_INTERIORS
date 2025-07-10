@@ -118,9 +118,6 @@ export default function ProjectDetail() {
         <p>
           <strong>📆 Completion Date:</strong> {project.completionDate}
         </p>
-        <p>
-          <strong>⏱ Duration:</strong> {project.duration}
-        </p>
       </div>
     </div>
   );
