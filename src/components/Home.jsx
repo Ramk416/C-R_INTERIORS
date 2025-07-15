@@ -27,7 +27,7 @@ const Home = () => {
               <span className="text-white stroke-text shadow-text">&</span>
               <span className="text-white stroke-text shadow-text">R</span>
             </div>
-            <div className="text-[#e0e0e0] text-sm sm:text-base md:text-lg lg:text-xl tracking-[0.3em] mt-1 font-heading shadow-text text-center ml-14 sm:ml-20 md:ml-24 lg:ml-28">
+            <div className="text-[#e0e0e0] text-sm sm:text-base md:text-lg lg:text-xl tracking-[0.3em] mt-1 font-heading shadow-text text-center sm:text-left sm:ml-20 md:ml-24 lg:ml-28">
               INTERIORS
             </div>
           </div>
@@ -53,49 +53,48 @@ const Home = () => {
           </div>
         </div>
 
-        {/* Cards below but inside same screen */}
-        {/* Cards below but inside same screen */}
+        {/* Cards Section */}
         <div className="w-full mt-4 mb-6 px-4">
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 max-w-7xl mx-auto">
             {/* Card 1 */}
-            <div className="bg-[#fefae0] p-4 rounded-xl shadow-lg text-center">
-              <h4 className="text-lg font-semibold text-black">
+            <div className="bg-white/20 backdrop-blur-sm p-3 rounded-xl shadow-lg text-center">
+              <h4 className="text-xs sm:text-sm md:text-base font-semibold text-white">
                 Modular Interiors
               </h4>
-              <p className="text-sm text-[#333] mt-1 hidden sm:block">
+              <p className="text-xs sm:text-sm md:text-base text-[#f1eeee] mt-1 hidden sm:block">
                 Custom kitchens, wardrobes & functional furniture tailored to
                 your space.
               </p>
             </div>
 
             {/* Card 2 */}
-            <div className="bg-[#fcebd5] p-4 rounded-xl shadow-lg text-center">
-              <h4 className="text-lg font-semibold text-black">
+            <div className="bg-white/20 backdrop-blur-sm p-3 rounded-xl shadow-lg text-center">
+              <h4 className="text-xs sm:text-sm md:text-base font-semibold text-white">
                 Ceiling & Lighting
               </h4>
-              <p className="text-sm text-[#333] mt-1 hidden sm:block">
+              <p className="text-xs sm:text-sm md:text-base text-[#f1eeee] mt-1 hidden sm:block">
                 Ceiling designs with intelligent lighting for mood and
                 aesthetics.
               </p>
             </div>
 
             {/* Card 3 */}
-            <div className="bg-[#e8f0f2] p-4 rounded-xl shadow-lg text-center">
-              <h4 className="text-lg font-semibold text-black">
+            <div className="bg-white/20 backdrop-blur-sm p-3 rounded-xl shadow-lg text-center">
+              <h4 className="text-xs sm:text-sm md:text-base font-semibold text-white">
                 3D Visualization
               </h4>
-              <p className="text-sm text-[#333] mt-1 hidden sm:block">
+              <p className="text-xs sm:text-sm md:text-base text-[#f1eeee] mt-1 hidden sm:block">
                 Preview your dream space before execution with stunning 3D
                 renders.
               </p>
             </div>
 
             {/* Card 4 */}
-            <div className="bg-[#f2e9e4] p-4 rounded-xl shadow-lg text-center">
-              <h4 className="text-lg font-semibold text-black">
+            <div className="bg-white/20 backdrop-blur-sm p-3 rounded-xl shadow-lg text-center">
+              <h4 className="text-xs sm:text-sm md:text-base font-semibold text-white">
                 Exterior Design
               </h4>
-              <p className="text-sm text-[#333] mt-1 hidden sm:block">
+              <p className="text-xs sm:text-sm md:text-base text-[#f1eeee] mt-1 hidden sm:block">
                 Elegant facade, landscaping & exterior cladding for a perfect
                 look.
               </p>
