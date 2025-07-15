@@ -25,7 +25,7 @@ const Home = () => {
             <div className="flex gap-3 justify-center text-[3.2rem] sm:text-[4rem] md:text-[4.5rem] lg:text-[5rem] font-bold leading-none">
               <span className="text-white stroke-text shadow-text">C</span>
               <span className="text-white stroke-text shadow-text">&</span>
-              <span className="text-white stroke-text shadow-text">R</span>
+              <span className="text-white stroke-text shadow-text -ml-1">R</span>
             </div>
             <div className="text-[#e0e0e0] text-sm sm:text-base md:text-lg lg:text-xl tracking-[0.3em] mt-1 font-heading shadow-text text-center sm:text-left sm:ml-20 md:ml-24 lg:ml-28">
               INTERIORS
