@@ -2,104 +2,75 @@ const Home = () => {
   return (
     <section
       id="home"
-      className="relative bg-black text-white min-h-[90vh] overflow-hidden"
+      className="bg-black text-white overflow-hidden"
     >
-      {/* 🔹 Background Video */}
-      <video
-        autoPlay
-        muted
-        loop
-        playsInline
-        className="absolute top-0 left-0 w-full h-full object-cover z-0 brightness-50"
-      >
-        <source src="/bg_video2.mp4" type="video/mp4" />
-        Your browser does not support the video tag.
-      </video>
+      {/* Hero Banner */}
 
-      {/* 🔹 Foreground Content */}
-      <div className="relative z-10 px-4 py-6 min-h-[90vh] flex flex-col justify-between items-center text-center mt-5">
-        {/* Top content: Logo + Text */}
-        <div className="max-w-3xl">
-          {/* C & R with INTERIORS */}
-          <div className="flex flex-col items-center">
-            <div className="flex gap-3 justify-center text-[3.2rem] sm:text-[4rem] md:text-[4.5rem] lg:text-[5rem] font-bold leading-none">
-              <span className="text-white stroke-text shadow-text">C</span>
-              <span className="text-white stroke-text shadow-text">&</span>
-              <span className="text-white stroke-text shadow-text -ml-1">R</span>
-            </div>
-            <div className="text-[#e0e0e0] text-sm sm:text-base md:text-lg lg:text-xl tracking-[0.3em] mt-1 font-heading shadow-text text-center sm:text-left sm:ml-20 md:ml-24 lg:ml-28">
-              INTERIORS
-            </div>
+      {/* Desktop Banner */}
+      <img
+        src="/hero-desktop.PNG"
+        alt="Ramesh Suthar Interior"
+        className="hidden md:block w-full h-auto object-cover"
+      />
+
+      {/* Mobile Banner */}
+      <img
+        src="/hero-mobile.png"
+        alt="Ramesh Suthar Interior"
+        className="block md:hidden w-full h-auto object-cover"
+      />
+
+      {/* Desktop Cards Only */}
+      <div className="hidden md:block bg-[#12091d] px-4 py-6">
+        <div className="max-w-7xl mx-auto grid grid-cols-4 gap-4">
+
+          {/* Card 1 */}
+          <div className="bg-white/10 backdrop-blur-md border border-yellow-500/30 p-4 rounded-xl shadow-lg text-center transition duration-300 hover:bg-white/15">
+            <h4 className="text-base font-semibold text-white">
+              Modular Interiors
+            </h4>
+
+            <p className="text-sm text-gray-300 mt-2">
+              Custom kitchens, wardrobes & functional furniture tailored to your
+              space.
+            </p>
           </div>
 
-          {/* Description */}
-          <p className="text-[#f1eeee] font-semibold leading-relaxed text-sm sm:text-base md:text-lg mt-4 mb-4 px-2">
-            A space where creativity meets comfort. Whether it's a modern
-            makeover, elegant renovation, or fresh design ideas—offering
-            end-to-end turnkey projects from concept development and design to
-            execution and final handover.
-          </p>
+          {/* Card 2 */}
+          <div className="bg-white/10 backdrop-blur-md border border-yellow-500/30 p-4 rounded-xl shadow-lg text-center transition duration-300 hover:bg-white/15">
+            <h4 className="text-base font-semibold text-white">
+              Ceiling & Lighting
+            </h4>
 
-          {/* Services Summary */}
-          <p className="text-[#f1eeee] font-semibold text-sm md:text-base mt-4">
-            📍 Residential & Commercial <br />
-            📐 3D Visualization / Space Planning / Layout
-          </p>
-
-          {/* Contact */}
-          <div className="mt-3 font-semibold text-[#f1eeee] text-sm md:text-base space-y-1">
-            <p>📞 8056034718 / 9444139721</p>
-            <p>📧 rsdesigningstudio@gmail.com</p>
+            <p className="text-sm text-gray-300 mt-2">
+              Ceiling designs with intelligent lighting for mood and aesthetics.
+            </p>
           </div>
-        </div>
 
-        {/* Cards Section */}
-        <div className="w-full mt-4 mb-6 px-4">
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 max-w-7xl mx-auto">
-            {/* Card 1 */}
-            <div className="bg-white/20 backdrop-blur-sm p-3 rounded-xl shadow-lg text-center">
-              <h4 className="text-xs sm:text-sm md:text-base font-semibold text-white">
-                Modular Interiors
-              </h4>
-              <p className="text-xs sm:text-sm md:text-base text-[#f1eeee] mt-1 hidden sm:block">
-                Custom kitchens, wardrobes & functional furniture tailored to
-                your space.
-              </p>
-            </div>
+          {/* Card 3 */}
+          <div className="bg-white/10 backdrop-blur-md border border-yellow-500/30 p-4 rounded-xl shadow-lg text-center transition duration-300 hover:bg-white/15">
+            <h4 className="text-base font-semibold text-white">
+              3D Visualization
+            </h4>
 
-            {/* Card 2 */}
-            <div className="bg-white/20 backdrop-blur-sm p-3 rounded-xl shadow-lg text-center">
-              <h4 className="text-xs sm:text-sm md:text-base font-semibold text-white">
-                Ceiling & Lighting
-              </h4>
-              <p className="text-xs sm:text-sm md:text-base text-[#f1eeee] mt-1 hidden sm:block">
-                Ceiling designs with intelligent lighting for mood and
-                aesthetics.
-              </p>
-            </div>
-
-            {/* Card 3 */}
-            <div className="bg-white/20 backdrop-blur-sm p-3 rounded-xl shadow-lg text-center">
-              <h4 className="text-xs sm:text-sm md:text-base font-semibold text-white">
-                3D Visualization
-              </h4>
-              <p className="text-xs sm:text-sm md:text-base text-[#f1eeee] mt-1 hidden sm:block">
-                Preview your dream space before execution with stunning 3D
-                renders.
-              </p>
-            </div>
-
-            {/* Card 4 */}
-            <div className="bg-white/20 backdrop-blur-sm p-3 rounded-xl shadow-lg text-center">
-              <h4 className="text-xs sm:text-sm md:text-base font-semibold text-white">
-                Exterior Design
-              </h4>
-              <p className="text-xs sm:text-sm md:text-base text-[#f1eeee] mt-1 hidden sm:block">
-                Elegant facade, landscaping & exterior cladding for a perfect
-                look.
-              </p>
-            </div>
+            <p className="text-sm text-gray-300 mt-2">
+              Preview your dream space before execution with stunning 3D
+              renders.
+            </p>
           </div>
+
+          {/* Card 4 */}
+          <div className="bg-white/10 backdrop-blur-md border border-yellow-500/30 p-4 rounded-xl shadow-lg text-center transition duration-300 hover:bg-white/15">
+            <h4 className="text-base font-semibold text-white">
+              Exterior Design
+            </h4>
+
+            <p className="text-sm text-gray-300 mt-2">
+              Elegant facade, landscaping & exterior cladding for a perfect
+              look.
+            </p>
+          </div>
+
         </div>
       </div>
     </section>
